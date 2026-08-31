@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "results": {"skip": 0, "limit": 2, "total": 2}
+  },
+  "results": [
+    {
+      "report_number": "TEST0000001",
+      "date_created": "20240101",
+      "consumer": {"age": "34", "gender": "F"},
+      "products": [
+        {"name_brand": "Sample Snack Bar", "industry_code": "29"},
+        {"name_brand": "Sample Juice Drink", "industry_code": "34"}
+      ],
+      "reactions": ["NAUSEA", "HEADACHE"]
+    },
+    {
+      "report_number": "TEST0000002",
+      "date_created": "20240102",
+      "consumer": {"age": null, "gender": "M"},
+      "products": [
+        {"name_brand": "Sample Protein Powder", "industry_code": "29"}
+      ],
+      "reactions": ["RASH"]
+    }
+  ]
+}
